@@ -1,16 +1,35 @@
-# flutter_application_1
+# Book Finder Pro
 
-A new Flutter project.
+Aplicativo em **Flutter** para buscar livros por título, autor ou ISBN, exibindo detalhes como capa, descrição e editoras.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📚 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Buscar livros por título, autor ou ISBN  
+- Exibir capa, descrição, autores, editora, datas de publicação  
+- Lista de resultados com rolagem infinita / paginação  
+- Tratamento de erros e estados de carregamento (loading, erro, vazio)  
+- Interface simples e responsiva  
+- (Opcional) Salvamento de livros favoritos / histórico de busca  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Tecnologias
+
+- **Flutter / Dart**  
+- Plugins / pacotes principais usados (exemplos que você pode substituir):
+  - `http` — para requisições HTTP  
+  - `provider` ou `riverpod` — para gerenciamento de estado  
+  - `cached_network_image` — para cache de imagens  
+  - `flutter_spinkit` ou outro pacote de loading  
+  - Outros conforme necessidade  
+
+---
+
+## 🛠️ Como executar
+
+1. Clone este repositório  
+   ```bash
+   git clone https://github.com/rafaelquintela/book_finder_pro.git
+   cd book_finder_pro
